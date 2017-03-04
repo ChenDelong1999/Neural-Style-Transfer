@@ -3,6 +3,8 @@ from scipy.optimize import fmin_l_bfgs_b
 import numpy as np
 import time
 
+import theano
+import keras
 from keras.models import Model
 from keras.layers import Input
 from keras.layers.convolutional import Convolution2D, AveragePooling2D
